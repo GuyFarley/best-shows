@@ -15,7 +15,7 @@ function getStream() {
 
 function getShow() {
 
-    let show = prompt("What is your favorit show?");
+    let show = prompt("What is your favorite show?");
     if (show === "Breaking Bad") {
         document.write("Great choice! Breaking Bad is the greatest show of all time.");
     } else if (show === "breaking bad") {
