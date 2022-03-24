@@ -22,6 +22,27 @@
         </nav>
     </header>
     <br>
+    <ul>
+        <script>
+
+            let name = prompt("What is your name?");
+            document.write("<li>Welcome to my page, " + name + "!</li>");
+
+            let streaming = prompt("Which streaming service do you typically use to watch TV shows?");
+            document.write("<li>Ok, " + streaming + " is a very reputable streaming service. Nice work.</li>");
+
+            let show = prompt("What is your favorit show?");
+            if (show === "Breaking Bad") {
+                document.write("<li>Great choice! Breaking Bad is the greatest show of all time.</li>");
+            } else if (show === "breaking bad") {
+                document.write("<li>Great choice! Breaking Bad is the greatest show of all time.</li>");
+            } else {
+                document.write("<li>WRONG! " + show + " is a great show but Breaking Bad is the greatest show of all time. Thanks for playing.</li>");
+            }
+
+        </script>
+    </ul>
+
     <article>
         <h2>1. Breaking Bad</h2>
         <img src="https://loremflickr.com/320/240" alt="Breaking Bad Screenshot">
