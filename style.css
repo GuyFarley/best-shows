@@ -10,6 +10,7 @@ header {
 header h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    padding-top: 30px;
   }
   
 header nav ul {
@@ -51,9 +52,6 @@ article img {
 article p {
   display: inline-block;
   vertical-align: top; 
-  border-style: solid;
-  border-color: #EDA49F;
-  border-width: 2pt;
   width: 350px;
   margin-left: 20px;
   padding: 5px;
@@ -70,8 +68,11 @@ footer {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: rgb(39, 22, 192);
   font-size: larger;
-  line-height: 2em;
   }
+
+  div button {
+margin: auto;
+}
 
   li img {
     width: 20px;
