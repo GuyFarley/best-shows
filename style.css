@@ -23,7 +23,7 @@ header nav ul {
   
 header nav li {
     display: inline-block;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: large;
     padding: 10px 20px;
   }
@@ -47,7 +47,6 @@ article h2 {
 
 article img {
     float: left;
-    display: inline-block;
     border: #3F566E;
     border-style: solid;
     border-width: 2pt;
