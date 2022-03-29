@@ -25,7 +25,7 @@ function quiz() {
     let output = '';
     let tvHours = prompt("How many hours of TV do you watch per week?");
     for (let i = 0; i < tvHours; i++) {
-        output += "<img src='images/TV.png' />";
+        output += " <img src='images/TV.png' />";
     }
     document.getElementById("hours").innerHTML = output + "  Wow, that's a lot of TV! You should maybe crack a book sometime."
 }
