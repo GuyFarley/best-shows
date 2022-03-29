@@ -4,11 +4,12 @@ body, html {
   }
   
 header {
-    background-color: #87baed;
+    background-color: #6A92BA;
   }
 
 header h1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30pt;
     text-align: center;
     padding-top: 30px;
   }
@@ -22,7 +23,7 @@ header nav ul {
   
 header nav li {
     display: inline-block;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
     font-size: large;
     padding: 10px 20px;
   }
@@ -32,8 +33,13 @@ main {
     margin: auto;
   }
 
+article {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
 article h2 {
-    background-color: #E0ED6F;
+    background-color: #D1E1F0;
     padding: 15px 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 40%;
@@ -42,7 +48,7 @@ article h2 {
 article img {
     float: left;
     display: inline-block;
-    border: #99A154;
+    border: #3F566E;
     border-style: solid;
     border-width: 2pt;
     padding: 5px 5px;
@@ -51,6 +57,8 @@ article img {
 
 article p {
   display: inline-block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 11pt;
   vertical-align: top; 
   width: 350px;
   margin-left: 20px;
@@ -58,22 +66,18 @@ article p {
 }
 
 footer {
-  background-color: #87baed;
+  background-color: #6A92BA;
   margin-top: 30px;
   padding: 10px;
   }
 
-  li {
+li {
   list-style-type: none;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: rgb(39, 22, 192);
   font-size: larger;
   }
 
-  div button {
-margin: auto;
-}
-
-  li img {
+li img {
     width: 20px;
   }
